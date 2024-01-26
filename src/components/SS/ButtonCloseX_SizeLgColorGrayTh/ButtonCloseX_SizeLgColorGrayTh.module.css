@@ -1,0 +1,17 @@
+.xClose.xClose {
+  position: relative;
+  top: initial;
+  left: initial;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.root {
+  position: relative;
+  width: min-content;
+  height: min-content;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}

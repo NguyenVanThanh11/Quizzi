@@ -1,0 +1,51 @@
+import { memo } from 'react';
+import type { FC, ReactNode } from 'react';
+import { useNavigate } from 'react-router-dom';
+import resets from '../../_resets.module.css';
+import { Button_SizeLgHierarchyPrimaryI2 } from '../Button_SizeLgHierarchyPrimaryI2/Button_SizeLgHierarchyPrimaryI2.js';
+import { Button_SizeLgHierarchySecondar } from '../Button_SizeLgHierarchySecondar/Button_SizeLgHierarchySecondar.js';
+import classes from './_ModalActions_TypeHorizontalFi.module.css';
+
+interface Props {
+  className?: string;
+  classes?: {
+    button2?: string;
+  };
+  hide?: {
+    placeholder?: boolean;
+    placeholder2?: boolean;
+    placeholder3?: boolean;
+    placeholder4?: boolean;
+  };
+  text?: {
+    text?: ReactNode;
+  };
+}
+/* @figmaId 1104:365 */
+export const _ModalActions_TypeHorizontalFi: FC<Props> = memo(function _ModalActions_TypeHorizontalFi(props = {}) {
+  const navigate = useNavigate();
+  return (
+    <div className={`${resets.clapyResets} ${classes.root}`}>
+      <Button_SizeLgHierarchySecondar
+        className={classes.button}
+        hide={{
+          placeholder: true,
+          placeholder2: true,
+        }}
+        text={{
+          text: <div className={classes.text}>Cancel</div>,
+        }}
+      />
+      <Button_SizeLgHierarchyPrimaryI2
+        className={`${props.classes?.button2 || ''} ${classes.button2}`}
+        hide={{
+          placeholder: true,
+          placeholder2: true,
+        }}
+        text={{
+          text: props.text?.text || <div className={classes.text2}>Confirm</div>,
+        }}
+      />
+    </div>
+  );
+});

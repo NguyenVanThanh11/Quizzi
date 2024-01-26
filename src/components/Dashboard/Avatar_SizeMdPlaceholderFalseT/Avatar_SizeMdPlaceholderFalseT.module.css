@@ -1,0 +1,11 @@
+.root {
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 200px;
+  background-image:/* webpackIgnore: true */ url('/assets/sizeMdPlaceholderFalseTextFals.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

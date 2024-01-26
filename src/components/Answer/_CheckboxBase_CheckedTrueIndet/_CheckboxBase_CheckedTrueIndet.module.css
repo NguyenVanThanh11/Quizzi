@@ -1,0 +1,30 @@
+.minus.minus {
+  left: 15%;
+  right: 15%;
+  top: 15%;
+  bottom: 15%;
+  width: initial;
+  height: initial;
+}
+.icon.icon {
+  left: 20.8334%;
+}
+.icon {
+  left: 20.8334%;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.root {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  outline: solid 1px #7f56d9;
+  outline-offset: -1px;
+  border-radius: 6px;
+  background-color: #f9f5ff;
+  overflow: hidden;
+}

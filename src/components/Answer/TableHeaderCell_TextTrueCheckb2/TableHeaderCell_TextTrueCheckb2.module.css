@@ -1,0 +1,9 @@
+.root {
+  width: min-content;
+  height: 44px;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  background-color: #f9fafb;
+  box-shadow: inset 0px -1px 0px #eaecf0;
+}

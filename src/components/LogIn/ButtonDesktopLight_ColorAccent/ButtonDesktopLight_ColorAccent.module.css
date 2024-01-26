@@ -1,0 +1,22 @@
+.root {
+  width: min-content;
+  height: 32px;
+  align-items: center;
+  padding: 6px 17px 7px;
+  border-radius: 50px;
+  background-color: #e6e6e6;
+  overflow: hidden;
+}
+.label {
+  color: #b1b1b1;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Source Sans Pro, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}

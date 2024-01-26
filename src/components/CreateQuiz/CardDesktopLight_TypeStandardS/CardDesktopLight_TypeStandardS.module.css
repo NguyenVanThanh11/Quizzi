@@ -1,0 +1,28 @@
+.textContent.textContent {
+  width: initial;
+  align-self: stretch;
+}
+.root {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 280px;
+  height: min-content;
+  flex-direction: column;
+  outline: solid 1px #e6e6e6;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.image {
+  height: 125px;
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 16px;
+  background-image:/* webpackIgnore: true */ url('/assets/image3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: inset 0px -1px 0px #e6e6e6;
+}

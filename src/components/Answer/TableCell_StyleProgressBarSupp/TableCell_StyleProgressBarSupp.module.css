@@ -1,0 +1,11 @@
+.progressBar.progressBar {
+  width: initial;
+  height: initial;
+  flex: 1;
+}
+.root {
+  width: 280px;
+  height: 72px;
+  padding: 16px 24px;
+  box-shadow: inset 0px -1px 0px #eaecf0;
+}

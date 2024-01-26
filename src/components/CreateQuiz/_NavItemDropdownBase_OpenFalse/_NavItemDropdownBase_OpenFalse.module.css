@@ -1,0 +1,9 @@
+._NavItemBase._NavItemBase {
+  width: initial;
+  flex: 1;
+  height: initial;
+}
+.root {
+  width: 272px;
+  height: min-content;
+}

@@ -1,0 +1,8 @@
+.avatar.avatar {
+  background-image:/* webpackIgnore: true */ url('/assets/avatar.jpeg');
+}
+.root {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+}

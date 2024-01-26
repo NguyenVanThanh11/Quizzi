@@ -1,0 +1,45 @@
+.root {
+  width: 320px;
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 12px;
+}
+.progressBar {
+  position: relative;
+  height: 8px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+.background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #eaecf0;
+}
+.progress {
+  position: absolute;
+  left: 0;
+  right: 29.4909%;
+  top: 0;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #7f56d9;
+}
+.percentage {
+  color: #344054;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
